@@ -1,11 +1,12 @@
 {
   "pages":[
+    "pages/start/start",
     "pages/index/index",
     "pages/function/function",
     "pages/history/history",
     "pages/interval/interval",
     "pages/calender/calender",
-    "pages/birthdayr/birthday",
+    "pages/birthday/birthday",
     "pages/yuanjiaofen/yuanjiaofen"
   ],
   "window":{

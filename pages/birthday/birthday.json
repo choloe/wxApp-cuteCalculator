@@ -1,1 +1,8 @@
-{}
+{
+  "navigationBarTitleText": "生辰八字查询",
+  "backgroundColor": "#F5F5F5",
+  "backgroundTextStyle": "dark",
+  "usingComponents": {
+    "date-picker-hour": "../../components/date-picker-hour/index"
+  }
+}

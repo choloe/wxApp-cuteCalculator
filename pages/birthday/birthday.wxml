@@ -1,0 +1,23 @@
+<view class="container">
+  <view class="page__hd">
+    <text class="page__title">请选择...</text>
+  </view>
+  <view class="page_body">
+    <view class="section">
+      <view class="section__title">选择公历日期</view>
+      <view class="picker" bindtap="showDatePicker" >当前选择：{{date}}<image src="/images/more.png"></image></view>
+    </view>
+    <view class="section result">
+     <view wx:if="{{bazi!=NaN}}">
+      生辰八字为：{{bazi}}
+     </view>
+    </view>
+    <view class="startCal" bindtap="process">计算</view>
+    <date-picker-hour
+      id="date-picker"
+      value="{{datePickerValue}}" 
+      isShow="{{datePickerIsShow}}"
+      bindsureclick="datePickerOnSureClick"
+      bindcancelclick="datePickerOnCancelClick" />
+  </view>
+</view>

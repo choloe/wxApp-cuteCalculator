@@ -23,7 +23,7 @@
       </view>
       <view class="part">
         <view class="fct left">
-          <navigator url="details/details">
+          <navigator url="../birthday/birthday">
             <image src="/images/book.png"></image>
             <view>生辰八字查询</view>
           </navigator>
